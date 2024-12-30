@@ -6,7 +6,6 @@ import { UsersModule } from './users/users.module'
 import { ReportsModule } from './reports/reports.module'
 import { User } from './users/user.entity'
 import { Report } from './reports/report.entity'
-import * as process from 'node:process'
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const cookieSession = require('cookie-session')
 
